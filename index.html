@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cociname me me</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css"
+    />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1>Cociname me me</h1>
+    <form class="whatCanIcook">
+      <h2>What can i cook?</h2>
+      <label for="ingrediente">Escriba un ingrediente de su preferencia</label>
+      <input
+        type="text"
+        id="ingrediente"
+        placeholder="tomato, salad, potato, meat, beef, humus..."
+      />
+      <input type="submit" id="submit" value="Que puedo cocinar?" />
+    </form>
+    <div id="dishes-container" class="articles">
+      <article>
+        <img src="https://picsum.photos/id/1011/800/450" alt="" />
+        <div class="article-body">
+          <h2>This is some title</h2>
+          <a href="#" class="read-more">
+            Read more <span class="sr-only">about this is some title</span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>
